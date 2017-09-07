@@ -1,0 +1,146 @@
+color{
+    color: #8C2B34 #A5957E #F2F2F0 #D0AE9A #504B44
+}
+
+body{
+    background-color: #D0AE9A
+}
+
+#square{
+    width: 200px;
+    height: 200px;
+    background-color: #8C2B34;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#square:hover{
+    background-image: url("http://puu.sh/xthzd/fea30b208b.jpg");
+    width: 350px;
+    height: 200px;
+    background-color: #8C2B34;
+    margin-top: 10%;
+    margin-left: 10%;
+    transition: .8s ease;
+}
+
+nav a{
+    color: #F2F2F0;
+    font-family: century gothic;
+    text-decoration: none;
+}
+
+#home{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 200px;
+    height: 25px;
+    background-color: #8C2B34;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#about{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 200px;
+    height: 25px;
+    background-color: #8C2B34;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#contact{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 200px;
+    height: 25px;
+    background-color: #8C2B34;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#home:hover{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 225px;
+    height: 25px;
+    background-color: #504B44;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .5s ease;
+}
+
+#about:hover{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 250px;
+    height: 25px;
+    background-color: #504B44;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .5s ease;
+}
+
+#contact:hover{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 275px;
+    height: 25px;
+    background-color: #504B44;
+    text-align: center;
+    font-family: century gothic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .5s ease;
+}
+
+#std{
+    text-align: center;
+    margin-top: 20px;
+    font-family: century gothic;
+    font-variant: small caps;
+    color: #F2F2F0;
+}
+
+#main{
+    background-color: #F2F2F0;
+    color: #504B44;
+    width: 350px;
+    font-family: tahoma;
+    padding: 5%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    position: relative;
+    margin-top: -50%;
+    margin-bottom: -10%;
+    margin-left: 50%;
+    z-index: 100;
+    border-right: 25px solid #A5957E;
+    border-left: 25px solid #8C2B34;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: courier new;
+    color: #A5957E;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+h2:hover{
+    letter-spacing: 10px;
+    transition: .5s ease;
+}
+
