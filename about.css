@@ -1,0 +1,35 @@
+body{
+    margin: 2%;
+    padding: 0;
+    background: url("https://img.cinemablend.com/cb/4/1/a/b/2/7/41ab275084ed00dc330f5208422555b63974780eeb2ffc0d57347ff20fae6df1.jpg");
+    background-size: 170%;
+}
+#navbar{
+    background-color: #504B44;
+    color: #D0AE9A;
+    width: 65%;
+    margin: auto;
+    padding-left: 10%;
+}
+
+#main{
+    background-color: #A5957E;
+    padding: 4% 5%;
+    margin: 5% auto;
+    width: 65%;
+    opacity: 0.8;
+}
+h1 {
+    font-size: 36px;
+}
+#mainText{
+    margin: auto;
+    padding: 5%;
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    #miniNavbar {background-color: #504b44; color: #D0AE9A; width: 85%; margin: 5% auto; padding-left: 15%;}
+    h1 {font-size: 16px;}
+    #main {margin: 20% auto; padding: 4% 5%; width: 95%;}
+    #mainText {font-size: 12px;}
+}
